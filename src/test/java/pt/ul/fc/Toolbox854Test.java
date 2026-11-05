@@ -22,4 +22,22 @@ class Toolbox854Test {
         assertEquals(7, Toolbox854.add(3, 4));
         assertEquals(0, Toolbox854.add(-2, 2));
     }
+
+    @Test
+    void isEven() {
+        assertEquals(true, Toolbox854.even(2));
+        assertEquals(true, Toolbox854.even(4));
+        assertEquals(true, Toolbox854.even(6));
+        assertEquals(true, Toolbox854.even(8));
+        assertEquals(true, Toolbox854.even(10));
+    }
+
+    @Test
+    void isMagnitude(){
+        assertEquals(-2, Toolbox854.magnitude(2));
+        assertEquals(-4, Toolbox854.magnitude(4));
+        assertEquals(-6, Toolbox854.magnitude(6));
+        assertEquals(-8, Toolbox854.magnitude(8));
+        assertEquals(-10, Toolbox854.magnitude(10));
+    }
 }

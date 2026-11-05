@@ -21,7 +21,7 @@ public class Toolbox854 {
      * Returns true if value is even, false otherwise.
      */
     public static boolean even(int value) {
-        return value % 2 != 0;
+        return value % 2 == 0;
     }
 
     /**
@@ -49,7 +49,7 @@ public class Toolbox854 {
      * Returns the absolute value of number.
      */
     public static int magnitude(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
